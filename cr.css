@@ -1,0 +1,95 @@
+﻿        @media screen {
+        body              { margin:0 ; padding: 0 ; background: #000 ; color: #fff }        
+        textarea,
+        input,
+        pre               { text-align:right ; font-family: verdana ; text-decoration:none ; border: none ; color: #fff ; background-color: #666 ; font-size: 13px ; padding: 4px ; width: 98% ; outline-color: #ff6000}
+        p,
+        td,
+        div               { float:left ; margin: none ;  font-family: verdana ; font-size: 13px }        
+        
+        textarea          { float:right ; margin: none ; width: 160px ; height: 130px ; line-height: 150% ; overflow: hidden ; text-align: center ; font-size : 15px ; -webkit-border-radius: 5px ; }
+        input             { -webkit-border-radius: 3px ; }
+        br                { clear:both} 
+        table             { border-collapse:collapse ; border: none ; float:left }
+        td                { color: #888 ; padding: 1px 3px ; border: none ; margin: none}
+        
+        .heading          { float: right ; padding: 4px} 
+        .col1             { width: 42% } 
+        .col2             { width: 14% } 
+        .col3             { width: 12% } 
+        .col4             { width: 30% }         
+        .visibleRow       { width: 630px ; background-color: #666 ; display:block ; visibility: visible ; margin-top: 6px ; color: #333 }
+        .format99         { float: right ; padding: 4px } 
+        .leftJ            { float:left ; text-align:left } 
+        .fLeft,
+        .fRight           { padding: 4px }
+        .fRight           { float: right }
+        .baseLine         { width: 630px }
+        
+        
+        #center2          { margin-left: 45px }
+        #rText            { float: right }
+        #zProduct         { text-align: left ;  border: none ; color: #fff ; margin: 0 }
+        #zQuantum,
+        #zPrice           { float: right ; border: none ; color: #fff ; margin: 0 }
+        
+        #zCurrency        { color: #fff ; margin: 0 6px }          
+        #zSumRow          { float: right ; text-align:right ; color: #fff ; padding: 4px }
+        #zSequenceNo      { margin: 0 6px ; color: #ff6000 }          
+        #zAmount          { float:right; text-align: right ; margin-right: 4px ; font-family: Georgia; font-size: 24px ;  color: #fff}
+        
+        
+        #teller           { width: 630px ; margin-top: 20px ; color: #888 ; line-height: 40px  }       
+        #headingLine      { width: 630px ; padding: 6px 0 ; color: #888 } 
+        #zActionLine      { width: 630px ; background-color: #666 ; color: #333} 
+        #mother           { width: 630px ; color: #666 ; background-color: #333 ; padding: 20px } 
+        #zMessage         { float:right ; text-align:center ; margin: 0 0 20px 40px; letter-spacing: 1em ; font-family: "Courier New", mono-space ; font-size: 17px ; font-weight: 100 ; color: #888 }        
+        
+        .buttonBase       { width: 160px ; line-height: 3em ; color: #888 ; text-align: center ; font-weight: 100 ; font-size: 12px ; margin-bottom: 12px ; margin-right: 70px ; cursor: pointer ; }
+        .buttonBase:hover { background-image: -webkit-gradient(linear, left top, left bottom,color-stop(0.00, #ff6000),color-stop(1.00, #803000)) ; color: #000}
+        
+        .buttonChrome     {  background: -moz-linear-gradient(top, #666666 0%, #222222 100%); -moz-border-radius: 3px ;
+                            background-image: -webkit-gradient(linear, left top, left bottom,color-stop(0.00, #666666),color-stop(1.00, #222222)) ; -webkit-border-radius: 3px ;
+                           -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#666666, endColorstr=#222222, GradientType=0 )";
+                           filter: progid:DXImageTransform.Microsoft.gradient( enabled='true', startColorstr=#666666, endColorstr=#222222, GradientType=0 )}
+                           
+     }
+     @media print {
+        body              { margin:0 ; padding: 0 ; background: #fff ; color: #000 }
+        h1                { text-align:center ; margin: 0 ; font-family: "Courier New", mono-space ; font-size: 8pt }
+        select,
+        textarea,
+        span,        
+        input             { font-family: "Courier New", serif ; text-decoration:none ; line-height: 12pt ; border: none ; font-size: 8pt ; padding: 4pt 0 ; width: 98%}
+        div               { font-family: "Courier New", serif ; margin: 0 ; float:left ; font-size: 8pt ; overflow:hidden}
+        textarea          { line-height: 150%; height: 5em ; padding: 3pt ; float:left ; text-decoration: none ; border: none} 
+        br                { clear:both} 
+        pre               { text-align:left ; font-family: "Courier New" ; text-decoration:none ; border: none ; font-size: 8pt ; padding: 2pt ; width: 48%}
+        
+        .heading          { float: right ; padding: 4pt   0}
+        .col1             { width: 42% ; text-align:left ; float:left} 
+        .col2             { width: 14% } 
+        .col3             { width: 12% }                 
+        .col4             { width: 30% } 
+        .visibleRow       { width: 90mm ; margin-top: 4pt }
+        .format99         { float: right ; line-height: 12pt ; padding: none } 
+        
+        .fLeft            { line-height: 12pt ; float: left ; padding: none } 
+        .fRight           { line-height: 12pt ; float: right ; padding: none } 
+        .baseLine         { width: 90mm }
+        
+        
+        #zCurrency        { color: #888 ; margin: 0 4pt }                  
+        #zSumRow,        
+        .fRight           { float: right ; line-height: 12pt } 
+        #zSequenceNo      { margin: 0 4pt ; line-height: 15pt }
+        #zAmount          { line-height: 12pt ; float: right ; text-align: right }
+        #zPrice           { line-height: 12pt ; float: right ; border: none} 
+        
+        #teller           { width: 88mm  ; line-height: 15pt ; margin-top: 12pt } 
+        #headingLine      { width: 90mm  ; border-bottom: dotted 1pt #808080 } 
+        #mother           { width: 90mm } 
+        .leftJ            { text-align:left; float:left } 
+        #zActionLine,
+       .buttonBase        { visibility: hidden ; display: none } 
+     }

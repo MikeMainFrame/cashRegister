@@ -1,0 +1,60 @@
+﻿  <html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xml:lang="en">
+  <head>
+    <title>Kasse Service :: af Mike/TRITICUM </title>
+     <link rel="stylesheet" href="cr.css" type="text/css"  />
+</head>
+<body>  
+<div id="mother" >
+  <div class="baseLine">
+    <table>
+      <tr><td>Dankort</td><td><input type="text" size="10" id="zDankort" value="0" onchange="unifyAmount(this);"></input></td></tr>    
+      <tr><td>Kontant</td><td><input type="text" size="10" id="zCash" value="0" onchange="unifyAmount(this);"></input></td></tr>    
+      <tr><td>Kredit</td><td><input type="text" size="10" id="zCredit" value="0" onchange="unifyAmount(this);"></input></td></tr>    
+      <tr><td>Gavekort</td><td><input type="text" size="10" id="zGiftcard" value="0" onchange="unifyAmount(this);"></input></td></tr>    
+      <tr><td>Tilgode</td><td><input type="text" size="10" id="zVoucher" value="0" onchange="unifyAmount(this);"></input></td></tr>          
+      <tr><td>Check</td><td><input type="text" size="10" id="zCheck" value="0" onchange="unifyAmount(this);"></input></td></tr>    
+    </table>
+    <div style="float:right">
+      <div id="zMessage">KASSE</div>
+      <br />
+      <div>
+        <div>  
+          <div id="zOverview" class="buttonBase buttonChrome" onclick="showRapports();">Rapport Oversigt</div><br />
+          <div id="zBreak"    class="buttonBase buttonChrome" onclick="makeBreak();">Dan Rapport</div><br />
+          <div id="zAfslut"   class="buttonBase buttonChrome" onclick="makeSlot();">Bon &#xa0; F7</div>
+        </div>
+        <textarea name="rText" id="rText" >Tafdrup Menswear
+Jernbanegade 3
+3480 Fredensborg
+SE.: 26 94 63 44
+        </textarea>      
+      </div>
+    </div>
+  </div>  
+  <br />  
+  <div id="teller">   
+    <div id="zNow"></div>
+    <div id="zSequenceNo">#0072654</div>
+    <div id="zCurrency">DKK</div>
+    <div id="zAmount">0.00</div>
+  </div>  
+  <br />  
+  <div id="headingLine">
+    <div class="col1"><div class="heading leftJ">Product</div></div>    
+    <div class="col2"><div class="heading">Pris</div></div>    
+    <div class="col3"><div class="heading">Kvantum</div></div>    
+    <div class="col4"><div class="heading">Summa</div></div>
+  </div>  
+  <br />    
+  <div id="zActionLine">
+    <div class="col1"><input type="text" size="10" id="zProduct" value="*"></input></div>    
+    <div class="col2"><input type="text" size="10" id="zPrice" value="0.00" onchange="unifyAmount(this);"></input></div>    
+    <div class="col3"><input type="text" size="10" id="zQuantum" value="0"></input></div>    
+    <div class="col4"><div id="zSumRow">0</div></div>
+  </div>
+  <div id="transaction"></div>
+</div>
+<script type="text/javascript" src="cr.js" ></script>
+</body></html>

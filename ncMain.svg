@@ -1,0 +1,34 @@
+<svg viewBox="0 0 4400 2800"
+     style="background: #002 ; font-family: 'Scope One', sans-serif;"
+     id="zcanvas" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg">
+  <title>noCash register :: by TRITICUM </title>
+  <defs>
+    <link xmlns="http://www.w3.org/1999/xhtml" href="https://fonts.googleapis.com/css?family=Scope+One" type="text/css" rel="stylesheet" />
+    <radialGradient id="date"  cx="0.50" cy="0.50" r="0.50" fx="0.50" fy="0.50"><stop offset="0.00"   stop-color="#ff80ff" /><stop offset="1.00"   stop-color="#804080" /></radialGradient>
+    <radialGradient id="final" cx="0.50" cy="0.50" r="0.50" fx="0.50" fy="0.50"><stop offset="0.00"   stop-color="#ffff00" /><stop offset="1.00"   stop-color="#ff6000" /></radialGradient>
+    <radialGradient id="blue"  cx="0.50" cy="0.50" r="0.50" fx="0.50" fy="0.50"><stop offset="0.00"   stop-color="#0000ff" /><stop offset="1.00"   stop-color="#000080" /></radialGradient>
+    <radialGradient id="push"  cx="0.50" cy="0.50" r="0.50" fx="0.50" fy="0.50"><stop offset="0.00"   stop-color="#ff0000" /><stop offset="1.00"   stop-color="#ff6000" /></radialGradient>
+    <radialGradient id="red"   cx="0.50" cy="0.50" r="0.50" fx="0.50" fy="0.50"><stop offset="0.00"   stop-color="#ff0000" /><stop offset="1.00"   stop-color="#800000" /></radialGradient>
+    <radialGradient id="aTurq" cx="0.50" cy="0.50" r="0.50" fx="0.50" fy="0.50"><stop offset="0.00"   stop-color="#38C0B0"/><stop offset="1.00" stop-color="#40E0D0"/></radialGradient>
+
+    <symbol id="addSub" viewBox="0 0 24 24"><path class="path1" d="M8 0c-4.355 0-7.898 3.481-7.998 7.812 0.092-3.779 2.966-6.812 6.498-6.812 3.59 0 6.5 3.134 6.5 7 0 0.828 0.672 1.5 1.5 1.5s1.5-0.672 1.5-1.5c0-4.418-3.582-8-8-8zM8 16c4.355 0 7.898-3.481 7.998-7.812-0.092 3.779-2.966 6.812-6.498 6.812-3.59 0-6.5-3.134-6.5-7 0-0.828-0.672-1.5-1.5-1.5s-1.5 0.672-1.5 1.5c0 4.418 3.582 8 8 8z"></path></symbol>
+    <symbol id="done" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></symbol>
+    <symbol id="calendar" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M3 17h18v2H3zm16-5v1H5v-1h14m2-2H3v5h18v-5zM3 6h18v2H3z"/></symbol>
+  </defs>
+  <g id="buttons" font-size="48">
+    <g fill="#ff6000"><path d="M1550,200 L2800,200 Q2850,200 2850,250 L2850,1800 Q2850,1850 2800,1850 L2400,1850 L2300,1750 L1650,1750 Q1550,1750 1550,1700 L1550,250 Q1550,200 1600,200 Z" fill="#00a" /></g>
+    <g fill="#fff" text-anchor="middle" font-weight="100">
+      <text    x="1550" y="1840" text-anchor="start" fill="#888" id="zstatus">quo</text>
+      <circle cx="1750" cy="2125" r="125" stroke-width="0" stroke="#0f0" fill="#0a0" zfactor="1" />
+        <text x="1745" y="2140"  id="addsub" >add</text>
+      <rect x="2075" y="2000" width="250" height="250" stroke-width="3" stroke="#00f" fill="#00f" zdateselect="true"  />
+        <use xlink:href="calendar" fill="#fff" x="2154" y="2080" height="96" width="96" zdateselect="true" />
+      <circle cx="2650" cy="2125" r="125" stroke-width="0" stroke="#080" fill="#080" zfinalise="true"   />
+        <use xlink:href="#icon-loop2" fill="#fff" x="2604" y="2076" height="96" width="96" />
+      <text    x="1550" y="2740" text-anchor="start" fill="#888" id="zmessage">mike was here and try to communicate</text>
+    </g>
+  </g>
+  <script type="application/ecmascript" xlink:href="staticdata/crcount.js" ></script>
+</svg>

@@ -24,7 +24,7 @@
       <circle cx="1750" cy="2125" r="125" stroke-width="0" stroke="#0f0" fill="#0a0" zfactor="1" />
         <text x="1745" y="2140"  id="addsub" >add</text>
       <rect x="2075" y="2000" width="250" height="250" stroke-width="3" stroke="#00f" fill="#00f" zdateselect="true"  />
-        <use xlink:href="calendar" fill="#fff" x="2154" y="2080" height="96" width="96" zdateselect="true" />
+        <use xlink:href="#calendar" fill="#fff" x="2154" y="2080" height="96" width="96" zdateselect="true" />
       <circle cx="2650" cy="2125" r="125" stroke-width="0" stroke="#080" fill="#080" zfinalise="true"   />
         <use xlink:href="#icon-loop2" fill="#fff" x="2604" y="2076" height="96" width="96" />
       <text    x="1550" y="2740" text-anchor="start" fill="#888" id="zmessage">mike was here and try to communicate</text>
